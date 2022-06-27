@@ -62,21 +62,15 @@ module.exports = {
         gray: colors.gray,
         primary: {
           ...colors.blue,
-          light: colors.blue['500'],
-          main: colors.blue['800'],
-          dark: colors.blue['900'],
+          default: colors.blue['700'],
         },
         secondary: {
           ...colors.yellow,
-          light: colors.yellow['200'],
-          main: colors.yellow['400'],
-          dark: colors.yellow['600'],
+          default: colors.yellow['400'],
         },
         neutral: {
           ...colors.neutral,
-          light: colors.neutral['50'],
-          main: colors.neutral['600'],
-          dark: colors.neutral['900'],
+          default: colors.neutral['600'],
         },
       },
       fontFamily: {

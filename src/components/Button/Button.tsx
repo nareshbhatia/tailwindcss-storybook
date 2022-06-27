@@ -10,9 +10,9 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 const baseStyles = 'font-medium rounded';
 
 const sizeStyles = {
-  small: 'text-xs leading-4 px-2.5 py-1.5',
-  medium: 'text-sm leading-5 px-3 py-2',
-  large: 'text-sm leading-5 px-4 py-2',
+  small: 'text-xs px-2.5 py-1.5',
+  medium: 'text-sm leading-4 px-3 py-2',
+  large: 'text-sm px-4 py-2',
 };
 
 const variantStyles = {
@@ -22,15 +22,14 @@ const variantStyles = {
 
 const colorStyles = {
   contained: {
-    default: 'text-black bg-gray-200 hover:bg-gray-400',
-    primary: 'text-white bg-primary-main hover:bg-primary-dark',
-    secondary: 'text-black bg-secondary-main hover:bg-secondary-dark',
+    default: 'text-neutral-900 bg-gray-200 hover:bg-gray-300',
+    primary: 'text-white bg-primary-default hover:bg-primary-900',
+    secondary: 'text-neutral-900 bg-secondary-default hover:bg-secondary-500',
   },
   outlined: {
-    default: 'text-gray-500 border-gray-500 hover:bg-gray-200',
-    primary: 'text-primary-main border-primary-main hover:bg-primary-50',
-    secondary:
-      'text-secondary-dark border-secondary-dark hover:bg-secondary-light',
+    default: 'text-gray-600 border-gray-600 hover:bg-gray-200',
+    primary: 'text-primary-default border-primary-default hover:bg-primary-50',
+    secondary: 'text-secondary-800 border-secondary-800 hover:bg-secondary-100',
   },
 };
 
