@@ -70,7 +70,7 @@ module.exports = {
         },
         neutral: {
           ...colors.neutral,
-          default: colors.neutral['600'],
+          default: colors.neutral['900'],
         },
       },
       fontFamily: {
