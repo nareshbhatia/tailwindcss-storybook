@@ -108,6 +108,19 @@ export const ButtonVariationsStory = () => {
           Large
         </Button>
       </div>
+
+      <h2 className="text-xl mt-6">Link Buttons</h2>
+      <div className="mt-2">
+        <a className="btn-link" href="https://amazon.com">
+          Amazon
+        </a>
+        <a className="ml-2 btn-link" href="https://apple.com">
+          Apple
+        </a>
+        <a className="ml-2 btn-link" href="https://store.google.com">
+          Google
+        </a>
+      </div>
     </div>
   );
 };
