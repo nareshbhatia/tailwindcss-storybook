@@ -5,6 +5,7 @@ This repository shows how to integrate Tailwind CSS components with Storybook.
 ## Running Storybook
 
 ```sh
+npm ci
 npm run dev
 ```
 
